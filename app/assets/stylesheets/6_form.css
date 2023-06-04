@@ -1,0 +1,105 @@
+.new-form {
+    
+    position: fixed;
+        left: 2.5%;
+        width: 95%;
+        top: 100%;
+        z-index: 2;
+        bottom: -10px;
+        
+        border: 4px solid black;
+        padding: 2px;
+        border-radius: 10px;
+        background-color: rgb(210, 210, 210);
+        transition: top .8s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.new-form.on {
+    display: block;
+
+    position: fixed;
+    left: 2.5%;
+    width: 95%;
+    top: 50%;
+    z-index: 3;
+    bottom: -10px;
+   
+    border: 4px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(210, 210, 210);
+    transition: top .8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.tweet-compose {
+    border-radius: 10px;
+    height: 700px;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: transparent;
+}
+
+.tweet-submit {
+    margin: 20px auto;
+    margin-top:60px;
+
+    padding: 10px 20px;
+
+
+    background-color: transparent;
+    border: 8px solid rgb(54, 101, 255);
+
+    font-family: 'Shantell Sans';
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+/* .tweet-submit:not(:hover){
+    background-color: transparent;
+    transition: background-color 0.5s;
+} */
+.tweet-submit:active{
+    background-color: gray;
+    transition: background-color 0.5s;
+}
+
+.tweet-text-area {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 10px;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 10px;
+color: rgb(0, 0, 0);
+    font-size: 38px;
+    font-family: serif;
+}
+
+.mention-select {
+margin: 10px auto;
+
+    padding: 10px 20px;
+
+
+    background-color: transparent;
+    border: 8px solid white;
+
+    font-family: 'Shantell Sans';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+
+.mention-label{
+    
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px;
+    
+}

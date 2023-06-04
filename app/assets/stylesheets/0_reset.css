@@ -1,0 +1,69 @@
+body,
+span,
+div,
+header,
+input,
+h1,
+a,
+li,
+ul,
+label,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+p {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    display: block;
+}   
+
+
+
+a {
+   
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* not really reset */
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    
+        
+
+
+}
+
+h1 {
+    font-family: 'Shantell Sans';
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(1, 72, 172);
+}
+
+@media screen and (min-width: 1000px) {
+body{
+    font-size: 100%;
+}
+    
+
+}

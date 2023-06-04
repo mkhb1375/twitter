@@ -1,0 +1,36 @@
+.user-show{
+    padding: 30px;
+}
+.follow-toggle2{
+    color: rgb(255, 255, 255);
+        font-size: 45px;
+        background-color: rgb(0, 95, 227);
+        
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color .5s;
+        padding: 10px 25px;
+        font-weight: 700;
+        margin: 25px auto;
+}
+span.content{text-align: left;}
+.follow-toggle2:active{
+    background-color: rgb(1, 72, 172);
+}
+.user-title{
+    font-size: 80px;
+    margin: 25px;
+    margin-top: -100px;
+   
+}
+.follow-part{
+    font-family: 'Shantell Sans';
+        
+        color: rgb(1, 72, 172);
+       
+        
+        margin-top: 100px;
+}
+.inline{
+    display: inline;
+}

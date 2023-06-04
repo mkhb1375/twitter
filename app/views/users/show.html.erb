@@ -1,0 +1,32 @@
+<div class="user-show">
+
+<h1 class="user-title"><%= @user.username %></h1>
+<div class="fp">
+<span>
+<b class="follow-part"><strong><%= @user.username %></strong> Followers</b>
+<ul>
+  <% @user.followers.each do |follower| %>
+    <li class="inline"> <a class="inline" href="<%=follower.id%>"><%= follower.username  %> - </a></li>
+  <% end %>
+</ul>
+</span>
+<span>
+<b class="follow-part">People who <strong><%= @user.username %></strong> follow </b>
+<ul>
+  <% @user.followees.each do |followee| %>
+    <li class="inline"> <a class="inline" href="<%=followee.id%>"><%= followee.username  %> - </a></li>
+  <% end %>
+</ul>
+</span>
+</div>
+
+<%= render 'follows/form2', user: @user %>
+
+
+<ul class="my_ul">
+  
+</ul>
+<button class="more" >Swipe Up</button>
+
+
+</div>

@@ -1,0 +1,21 @@
+
+<div class="top-part">
+
+<a class="profile" href="<%= user_url(tweet.user.id) %>"><%= tweet.user.username %></a>
+<% if tweet.mentioned_users.length > 0 %>
+  <ul>
+    <% tweet.mentioned_users.each do |mentioned_user| %>
+      <a class="mentions" href=" <%=  user_url(mentioned_user) %>"> @<%=mentioned_user.username %> </a>
+    <% end %>
+  </ul>
+<% end %>
+</div>
+<span class="content"> <%= tweet.content %></span>
+ 
+<span class="date">
+  <%= Time.zone.parse(tweet.created_at.to_s).in_time_zone(ActiveSupport::TimeZone.new('Asia/Tehran')).strftime('%Y-%m-%d %H:%M') %>
+</span>
+
+
+
+

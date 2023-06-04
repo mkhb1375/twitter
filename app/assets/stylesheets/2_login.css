@@ -1,0 +1,41 @@
+.login-label {
+    margin: 120px;
+    font-size: 100px;
+}
+
+
+
+.login-Form > input , .user-search-input {
+    margin: 0 auto;
+    
+    font-size: 50px;
+    background-color: rgb(225, 225, 225);
+    padding: 0 5px;
+    height: 85px;
+    border-radius: 15px;
+    border: 2px solid rgb(135, 135, 135);
+}
+.user-search-input{
+    margin-top: 50px;
+}
+.login-Form>label , .login-Form>a {
+    font-size: 40px;
+    
+}
+
+input.user-submit {
+    font-family: 'Shantell Sans';
+    background-color:rgb(1, 72, 172);
+    color: white;
+    border: none;
+    width: 300px;
+    margin-bottom: 100px;
+}
+input.user-submit:hover {
+    background-color: rgb(23, 47, 77);
+    cursor: pointer;
+}
+.signup-label{
+    color:rgb(1, 72, 172);
+}
+

@@ -1,0 +1,20 @@
+<div class="feed-div">
+<h1>Welcome <%= current_user.username %>!</h1>
+
+<b>Your Feed</b>
+<ul class="my_ul" >
+  
+</ul>
+
+<button class="more" >Swipe Up</button>
+
+<% if current_user %>
+     <%= render 'tweets/form'  ,tweet_ul:'#feed'%>
+
+    <button class="post-button"><h1>Post Tweet</h1></button>
+    <% end%>
+
+</div>
+
+  
+

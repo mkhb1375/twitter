@@ -1,0 +1,46 @@
+.post-button {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(1, 24, 172);
+    border: none;
+    z-index: 53;
+    border-radius: 10px;
+}
+
+.post-button>h1 {
+    font-family: 'Shantell Sans';
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+
+.overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+    
+    
+}
+
+.overlay.on {
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.476);
+    z-index: 2;
+    transition:  background-color 0.8s;
+   
+}
+.asdf{
+    background-color: red;
+}
